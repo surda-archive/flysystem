@@ -1,0 +1,45 @@
+{
+    "name": "surda/flysystem",
+    "type": "library",
+    "description": "Integration of Flysystem into Nette Framework.",
+    "keywords": ["nette", "flysystem", "filesystem", "filesystems", "files", "storage", "dropbox", "aws", "abstraction", "s3", "ftp", "sftp", "remote", "webdav", "file systems", "cloud", "cloud files", "rackspace", "copy.com"],
+    "homepage": "http://surani.cz",
+    "license": ["MIT"],
+    "authors": [
+        {
+            "name": "Radek Šuráni",
+            "homepage": "http://surani.cz",
+            "email": "radek@surani.cz"
+        }
+    ],
+    "support": {
+        "email": "radek@surani.cz",
+        "issues": "https://github.com/surda/flysystem/issues"
+    },
+    "require": {
+        "php": ">=5.6",
+        "nette/di": "2.3.*",
+        "nette/utils": "2.3.*",
+        "league/flysystem": "~1.0"
+    },
+    "require-dev": {
+        "nette/tester": "~1.6"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Surda\\Flysystem\\": "src/"
+        },
+        "classmap": [
+            "src/Exceptions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "SurdaTests\\": "tests/SurdaTests"
+        },
+        "classmap": [
+            "tests/SurdaTests"
+        ]
+    }
+}
