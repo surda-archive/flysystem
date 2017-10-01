@@ -1,6 +1,6 @@
 # Nette Flysystem
 
-[![Build Status](https://travis-ci.org/surda/flysystem.svg?branch=master)](https://travis-ci.org/surda/flysystem)
+[![Build Status](https://travis-ci.org/surda/flysystem.svg?branch=v2.4)](https://travis-ci.org/surda/flysystem)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/surda/flysystem/blob/master/licence.md)
 
 Integration of [Flysystem](https://flysystem.thephpleague.com) into Nette Framework including support Flysystem Plugins.
